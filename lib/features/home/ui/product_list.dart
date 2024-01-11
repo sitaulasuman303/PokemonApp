@@ -27,8 +27,7 @@ class ProductList extends StatelessWidget {
             height: 200,
             width: double.infinity,
             decoration: BoxDecoration(
-                image: DecorationImage(
-                    fit: BoxFit.cover, image: NetworkImage(product.imageUrl))),
+                image: DecorationImage(image: NetworkImage(product.imageUrl))),
           ),
           const SizedBox(height: 10),
           Text(
